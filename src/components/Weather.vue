@@ -13,7 +13,7 @@
     <span class="sm-hidden">{{ weatherData.weather.windpower }}&nbsp;级</span>
   </div>
   <div class="weather" v-else>
-    <span>Happy staking day</span>
+    <span><strong>Happy staking day</strong></span>
   </div>
 </template>
 
