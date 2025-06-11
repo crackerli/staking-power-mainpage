@@ -144,9 +144,9 @@ const onTimeUp = () => {
   }
   let lrc = lyrics[lyricIndex][1];
   if (lrc === "Loading") {
-    lrc = "歌词加载中";
+    lrc = "Lyrics loading...";
   } else if (lrc === "Not available") {
-    lrc = "歌词加载失败";
+    lrc = "Lyrics load failed";
   }
   store.setPlayerLrc(lrc);
 };
