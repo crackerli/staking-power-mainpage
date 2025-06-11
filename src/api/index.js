@@ -45,7 +45,7 @@ export const getPlayerList = async (server, type, id) => {
 
     // hitokotoData.text = result.hitokoto;
     // hitokotoData.from = result.from;
-globalCounter = 0;
+//globalCounter = 0;
 hitokotoList = [
   {
     "hitokoto": "\"staking-power.poolv1.near\" is the one of the top 100 validators",
