@@ -1,5 +1,6 @@
 // import axios from "axios";
 import fetchJsonp from "fetch-jsonp";
+import { globalCounter } from "globalCounter"
 
 /**
  * 音乐播放器
@@ -43,9 +44,6 @@ export const getPlayerList = async (server, type, id) => {
  * 一言
  */
 
-    // hitokotoData.text = result.hitokoto;
-    // hitokotoData.from = result.from;
-//globalCounter = 0;
 // 获取一言数据
 export const getHitokoto = async () => {
 //  const res = await fetch("https://v1.hitokoto.cn");
@@ -54,8 +52,13 @@ export const getHitokoto = async () => {
       "hitokoto": "\"staking-power.poolv1.near\" is the one of the top 100 validators",
       "from": "Delegate, take profit"
     },
+    {
+      "hitokoto": "What happening",
+      "from": "Crackerli"
+    }
   ];
-  const res = hitokotoList[0];
+  const res = hitokotoList[globalCounter.getCount() % hitokotoList.length];
+  globalCounter.increment();
 
 //  return await res.json();
   return await res;
