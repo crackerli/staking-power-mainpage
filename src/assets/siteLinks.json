@@ -11,27 +11,22 @@
   },
   {
     "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://music.imsyy.top/"
+    "name": "Namada Validator",
+    "link": "https://interface.namada.tududes.com/staking"
   },
   {
     "icon": "Compass",
-    "name": "起始页",
-    "link": "https://nav.imsyy.top/"
+    "name": "Audit Report",
+    "link": "https://github.com/crackerli/coda-mobile-wallet/raw/master/Least%20Authority%20-%20Mina%20Foundation%20-%20Mina%20Signer%20SDK%20%2B%20StakingPower%20Wallet%20Final%20Audit%20Report.pdf"
   },
   {
     "icon": "Book",
-    "name": "网址集",
-    "link": "https://web.imsyy.top/"
+    "name": "Mina SDK",
+    "link": "https://github.com/crackerli/ffi_mina_signer"
   },
   {
     "icon": "Fire",
-    "name": "今日热榜",
-    "link": "https://hot.imsyy.top/"
-  },
-  {
-    "icon": "LaptopCode",
-    "name": "站点监测",
-    "link": "https://status.imsyy.top/"
+    "name": "Octra Validator",
+    "link": ""
   }
 ]
