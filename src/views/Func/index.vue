@@ -12,9 +12,8 @@
         <div class="right cards">
           <div class="time">
             <div class="date">
-              <span>{{ currentTime.year }}&nbsp;year&nbsp;</span>
-              <span>{{ currentTime.month }}&nbsp;month&nbsp;</span>
-              <span>{{ currentTime.day }}&nbsp;day&nbsp;</span>
+              <span>{{ currentTime.year }}&nbsp;-&nbsp;</span>
+              <span>{{ currentTime.month }}&nbsp;-&nbsp;</span>
               <span class="sm-hidden">{{ currentTime.weekday }}</span>
             </div>
             <div class="text">
