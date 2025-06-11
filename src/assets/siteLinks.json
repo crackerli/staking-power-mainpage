@@ -32,11 +32,11 @@
   {
     "icon": "Fire",
     "name": "Android Wallet",
-    "link": ""
+    "link": "https://play.google.com/store/apps/details?id=com.staking_power.mina_wallet&gl=DE"
   },
   {
     "icon": "Fire",
     "name": "IOS Wallet",
-    "link": ""
+    "link": "https://apps.apple.com/app/stakingpower-wallet/id1551906889"
   }
 ]
