@@ -56,6 +56,12 @@ hitokotoList = [
 export const getHitokoto = async () => {
 //  const res = await fetch("https://v1.hitokoto.cn");
   const res = hitokotoList[0];
+  const hitokotoList = [
+    {
+      "hitokoto": "\"staking-power.poolv1.near\" is the one of the top 100 validators",
+      "from": "Delegate, take profit"
+    },
+  ];
 //  return await res.json();
   return await res;
 };
