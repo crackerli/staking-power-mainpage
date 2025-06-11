@@ -11,7 +11,7 @@ export const getCurrentTime = () => {
   let hour = time.getHours() < 10 ? "0" + time.getHours() : time.getHours();
   let minute = time.getMinutes() < 10 ? "0" + time.getMinutes() : time.getMinutes();
   let second = time.getSeconds() < 10 ? "0" + time.getSeconds() : time.getSeconds();
-  let weekday = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+  let weekday = ["Sun.", "Mon.", "Tue.", "Wed.", "Thu.", "Fri.", "Sat."];
   let currentTime = {
     year,
     month,
