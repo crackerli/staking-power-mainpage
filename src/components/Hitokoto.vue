@@ -48,8 +48,8 @@ const hitokotoData = reactive({
 const getHitokotoData = async () => {
   try {
     const result = await getHitokoto();
-    hitokotoData.text = "\"staking-power.poolv1.near\" is the one of the top 100 validators";
-    hitokotoData.from = "Delegate, take profit";
+    hitokotoData.text = result.hitokoto;
+    hitokotoData.from = result.from;
   } catch (error) {
     ElMessage({
       message: "一言获取失败",
