@@ -46,12 +46,6 @@ export const getPlayerList = async (server, type, id) => {
     // hitokotoData.text = result.hitokoto;
     // hitokotoData.from = result.from;
 //globalCounter = 0;
-hitokotoList = [
-  {
-    "hitokoto": "\"staking-power.poolv1.near\" is the one of the top 100 validators",
-    "from": "Delegate, take profit"
-  },
-];
 // 获取一言数据
 export const getHitokoto = async () => {
 //  const res = await fetch("https://v1.hitokoto.cn");
