@@ -90,8 +90,8 @@ const getWeatherData = async () => {
       };
     }
   } catch (error) {
-    console.error("天气信息获取失败:" + error);
-    onError("天气信息获取失败");
+    console.error("Get weather info failed" + error);
+    //onError("");
   }
 };
 
