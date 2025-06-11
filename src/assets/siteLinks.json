@@ -31,7 +31,12 @@
   },
   {
     "icon": "Fire",
-    "name": "StakingPower Wallet Android",
+    "name": "Android Wallet",
+    "link": ""
+  },
+  {
+    "icon": "Fire",
+    "name": "IOS Wallet",
     "link": ""
   }
 ]
