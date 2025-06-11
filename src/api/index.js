@@ -1,6 +1,6 @@
 // import axios from "axios";
 import fetchJsonp from "fetch-jsonp";
-import { globalCounter } from "globalCounter"
+import { counter } from "./globalCounter.js"
 
 /**
  * 音乐播放器
@@ -57,8 +57,8 @@ export const getHitokoto = async () => {
       "from": "Crackerli"
     }
   ];
-  const res = hitokotoList[globalCounter.getCount() % hitokotoList.length];
-  globalCounter.increment();
+  const res = hitokotoList[counter.getCount() % hitokotoList.length];
+  counter.increment();
 
 //  return await res.json();
   return await res;
