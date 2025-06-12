@@ -53,8 +53,8 @@ export const getHitokoto = async () => {
       "from": "Delegate, take profit"
     },
     {
-      "hitokoto": "What happening",
-      "from": "Crackerli"
+      "hitokoto": "StakingPower wallet is a hierarchical deterministic wallet that support bip39, bip32, bip44, developed on Flutter platform, support both android and ios devices. Meanwhile, we provide the signer sdk for Mina protocol wrapped by dart, anyone want to contribute to Mina network with Flutter can use it to produce your own frontend product. Flutter Mina SDK",
+      "from": "About StakingPower Wallet"
     }
   ];
   const res = hitokotoList[counter.getCount() % hitokotoList.length];
