@@ -49,12 +49,12 @@ export const getHitokoto = async () => {
 //  const res = await fetch("https://v1.hitokoto.cn");
   const hitokotoList = [
     {
-      "hitokoto": "\"staking-power.poolv1.near\" is the one of the top 100 validators",
+      "hitokoto": "\"staking-power.poolv1.near\" is the one of the top 100 near network validators",
       "from": "Delegate, take profit"
     },
     {
-      "hitokoto": "StakingPower wallet is a hierarchical deterministic wallet that support bip39, bip32, bip44, developed on Flutter platform, support both android and ios devices. Meanwhile, we provide the signer sdk for Mina protocol wrapped by dart, anyone want to contribute to Mina network with Flutter can use it to produce your own frontend product. Flutter Mina SDK",
-      "from": "About StakingPower Wallet"
+      "hitokoto": "StakingPower wallet is a HD wallet for MINA protocol, support bip39, bip32, bip44",
+      "from": "StakingPower Wallet"
     }
   ];
   const res = hitokotoList[counter.getCount() % hitokotoList.length];
