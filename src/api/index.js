@@ -55,6 +55,10 @@ export const getHitokoto = async () => {
     {
       "hitokoto": "StakingPower wallet is a HD wallet for MINA protocol, support bip39, bip32, bip44",
       "from": "StakingPower Wallet"
+    },
+    {
+      "hitokoto": "StakingPower members are all Genesis Founding Members of MINA community, support to produce blocks and snarks",
+      "from": "Genesis Founding Members"
     }
   ];
   const res = hitokotoList[counter.getCount() % hitokotoList.length];
